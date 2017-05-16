@@ -1,0 +1,67 @@
+{
+  "cook_time": "30", 
+  "subtitle": "good with fatty food", 
+  "name": "cabbage slaw", 
+  "ingredients": [
+    {
+      "preparation": "preparation", 
+      "quantity": 0.5, 
+      "prep": "cored and thinly sliced", 
+      "unit": "head", 
+      "ingredient": "red cabbage"
+    }, 
+    {
+      "preparation": "preparation", 
+      "quantity": 2.0, 
+      "prep": "shredded", 
+      "unit": "", 
+      "ingredient": "carrot"
+    }, 
+    {
+      "preparation": "preparation", 
+      "quantity": 1.5, 
+      "prep": "", 
+      "unit": "Tbsp", 
+      "ingredient": "sesame oil"
+    }, 
+    {
+      "preparation": "preparation", 
+      "quantity": 2.0, 
+      "prep": "", 
+      "unit": "Tbsp", 
+      "ingredient": "rice vinegar"
+    }, 
+    {
+      "preparation": "preparation", 
+      "quantity": 1.0, 
+      "prep": "", 
+      "unit": "small pinch", 
+      "ingredient": "salt"
+    }, 
+    {
+      "preparation": "preparation", 
+      "quantity": 1.0, 
+      "prep": "", 
+      "unit": "small pinch", 
+      "ingredient": "sugar"
+    }, 
+    {
+      "preparation": "preparation", 
+      "quantity": 2.0, 
+      "prep": "thinly sliced", 
+      "unit": "", 
+      "ingredient": "green onion"
+    }, 
+    {
+      "preparation": "preparation", 
+      "quantity": 2.0, 
+      "prep": "", 
+      "unit": "Tbsp", 
+      "ingredient": "sesame seed"
+    }
+  ], 
+  "notes": "", 
+  "author_firstname": "aaron", 
+  "author_lastname": "rosenberg", 
+  "instructions": "Combine everything in a bowl and let rest for at least 30 minutes.  Place onto serving platter and top with some reserved green onions and sesame seeds."
+}

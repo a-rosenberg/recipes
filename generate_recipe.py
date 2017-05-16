@@ -12,8 +12,8 @@ recipe = {
     'ingredients': []
 }
 
-recipe['author_firstname'] = raw_input('author first name?: ').lower()
-recipe['author_lastname'] = raw_input('author last name?: ').lower()
+recipe['author_firstname'] = raw_input('author first name?: ').strip().lower()
+recipe['author_lastname'] = raw_input('author last name?: ').strip().lower()
 recipe['name'] = raw_input('recipe name?: ')
 recipe['subtitle'] = raw_input('subtitle?: ')
 recipe['cook_time'] = raw_input('cook time? (min): ')

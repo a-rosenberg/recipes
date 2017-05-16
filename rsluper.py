@@ -40,11 +40,8 @@ class RecipeSlurper:
                             "VALUES "
                             "(?, ?, ?, ?, ?);",
                             (name, subtitle, notes, cook_time, author_id))
-
-
         self.cursor.execute("SELECT last_insert_rowid() ")
         recipe_id = self.cursor.fetchone()[0]
-
         self.cursor.execute("INSERT INTO "
                             "instructions "
                             "(recipe_id, instructions) "
@@ -58,7 +55,6 @@ class RecipeSlurper:
             quantity = item.get('quantity')
             unit = item.get('unit')
             preparation = item.get('preparation')
-
             self.cursor.execute("select ingredient_id from ingredients where ingredient = '{}';".format(ingredient))
             ingredient_test = self.cursor.fetchone()
             if ingredient_test:
