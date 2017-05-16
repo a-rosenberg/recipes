@@ -1,0 +1,53 @@
+{
+  "cook_time": "6", 
+  "subtitle": "Breakfast on the run.",
+  "name": "morning smoothie",
+  "author_firstname": "aaron",
+  "author_lastname": "rosenberg",
+  "ingredients": [
+    {
+      "preparation": "preparation", 
+      "quantity": 1.0, 
+      "prep": "frozen", 
+      "unit": "", 
+      "ingredient": "banana"
+    }, 
+    {
+      "preparation": "preparation", 
+      "quantity": 1.0, 
+      "prep": "", 
+      "unit": "cup", 
+      "ingredient": "almond milk"
+    }, 
+    {
+      "preparation": "preparation", 
+      "quantity": 2.0, 
+      "prep": "", 
+      "unit": "Tbsp", 
+      "ingredient": "peanut butter"
+    }, 
+    {
+      "preparation": "preparation", 
+      "quantity": 1.0, 
+      "prep": "rolled", 
+      "unit": "Tbsp", 
+      "ingredient": "oats"
+    }, 
+    {
+      "preparation": "preparation", 
+      "quantity": 1.0, 
+      "prep": "", 
+      "unit": "tsp", 
+      "ingredient": "flax seed"
+    }, 
+    {
+      "preparation": "preparation", 
+      "quantity": 0.25, 
+      "prep": "frozen", 
+      "unit": "cup", 
+      "ingredient": "spinach"
+    }
+  ], 
+  "notes": "Can add spirulina or coconut milk too.",
+  "instructions": "Put it all in the blender and let it blend until smooth."
+}

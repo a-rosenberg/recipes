@@ -1,0 +1,46 @@
+{
+  "cook_time": "40", 
+  "subtitle": "savor the protein", 
+  "name": "turkey bacon scramble",
+  "author_firstname": "robert",
+  "author_lastname": "partee",
+  "ingredients": [
+    {
+      "preparation": "preparation", 
+      "quantity": 4.0, 
+      "prep": "diced", 
+      "unit": "", 
+      "ingredient": "red potato"
+    }, 
+    {
+      "preparation": "preparation", 
+      "quantity": 0.5, 
+      "prep": "sliced", 
+      "unit": "", 
+      "ingredient": "onion"
+    }, 
+    {
+      "preparation": "preparation", 
+      "quantity": 4.0, 
+      "prep": "cut into tiny pieces", 
+      "unit": "strips", 
+      "ingredient": "turkey bacon"
+    }, 
+    {
+      "preparation": "preparation", 
+      "quantity": 1.0, 
+      "prep": "", 
+      "unit": "Tbsp", 
+      "ingredient": "chili powder"
+    }, 
+    {
+      "preparation": "preparation", 
+      "quantity": 4.0, 
+      "prep": "", 
+      "unit": "", 
+      "ingredient": "egg"
+    }
+  ], 
+  "notes": "Lime and green onion are good optional garnishes.", 
+  "instructions": "Sautee potatoes first, after 15 minutes add onion and bacon and cook until tender and crisp respectively.  Add chili powder to cook in oil.  Cook eggs scrambled in seperate pan; 3 egg white and 1 whole egg.  Put chili hash on plate and cover with eggs."
+}

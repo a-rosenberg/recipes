@@ -6,6 +6,8 @@ DROP TABLE recipes_ingredients;
 DROP TABLE ingredients;
 
 DROP TABLE instructions;
+
+DROP TABLE authors;
 --
 
 CREATE TABLE recipes (
@@ -14,7 +16,9 @@ CREATE TABLE recipes (
     subtitle TEXT NOT NULL,
     date_added TEXT DEFAULT CURRENT_TIMESTAMP,
     notes TEXT,
-    cook_time INTEGER NOT NULL
+    cook_time INTEGER NOT NULL,
+    author_id TEXT NOT NULL,
+    FOREIGN KEY (author_id) REFERENCES authors(author_id)
 );
 
 CREATE TABLE recipes_ingredients (
@@ -38,4 +42,10 @@ CREATE TABLE instructions (
     recipe_id INTEGER NOT NULL PRIMARY KEY,
     instructions BLOB NOT NULL,
     FOREIGN KEY (recipe_id) REFERENCES recipes(recipe_id)
+);
+
+CREATE TABLE authors (
+    author_id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+    author_firstname TEXT NOT NULL,
+    author_lastname TEXT NOT NULL
 );

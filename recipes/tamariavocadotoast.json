@@ -1,7 +1,9 @@
 {
   "cook_time": "10", 
   "subtitle": "millenial breakfasts",
-  "name": "tamari avocado toast", 
+  "name": "tamari avocado toast",
+  "author_firstname": "aaron",
+  "author_lastname": "rosenberg",
   "ingredients": [
     {
       "quantity": "1",

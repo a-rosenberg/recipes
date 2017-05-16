@@ -1,6 +1,8 @@
 {
   "notes": null,
   "cook_time": 45,
+  "author_firstname": "aaron",
+  "author_lastname": "rosenberg",
   "ingredients": [
     {
       "quantity": 1,

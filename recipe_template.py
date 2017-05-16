@@ -1,6 +1,8 @@
 import json
 
 recipe = {
+    'author_firstname': 'firstname',
+    'author_lastname': 'lastname',
     'name': 'name',
     'cook_time': 'cook_time',
     'subtitle': 'subtitle',
@@ -16,5 +18,5 @@ recipe = {
     ]
 }
 
-with open('recipes/template.json', 'w') as template:
+with open('templates/template.json', 'w') as template:
     template.write(json.dumps(recipe, indent=2))
