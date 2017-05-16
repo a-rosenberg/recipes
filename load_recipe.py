@@ -2,12 +2,14 @@ import sqlite3
 import json
 
 class RecipeSlurper:
-    def __init__(self, target, database):
+    def __init__(self, database):
         self.connection = sqlite3.connect(database)
         self.cursor = self.connection.cursor()
+
+
+    def insert(self, target):
         self.data = json.load(open(target))
 
-    def insert(self):
         name = self.data.get('name')
         subtitle = self.data.get('subtitle')
         cook_time = self.data.get('cook_time')
@@ -60,35 +62,22 @@ class RecipeSlurper:
                 "(?, ?, ?, ?, ?);",
                 (recipe_id, ingredient_id, quantity, unit, preparation))
 
+    def execute(self, sql):
+        cursor = self.cursor
+        cursor.execute(sql)
+        return cursor.fetchall()
 
+    def commit(self):
+        connection = self.connection
+        connection.commit()
+
+    def close(self):
+        connection = self.connection
+        connection.close()
 
 
 if __name__ == '__main__':
-    # recipe = RecipeSlurper('./recipes/misobowl.json', database='cookbook.db')
-    # recipe.insert()
-    # recipe.connection.commit()
-
-    # recipe = RecipeSlurper('./recipes/shakshuka.json', database='cookbook.db')
-    # recipe.insert()
-    # recipe.connection.commit()
-
-    recipe = RecipeSlurper('./recipes/tamariavocadotoast.json', database='cookbook.db')
-    # recipe.insert()
-    # recipe.connection.commit()
-
-    # recipe.cursor.execute("select r.name, i.ingredient, ri.quantity, ri.unit, ri.preparation "
-    #                          "from recipes as r "
-    #                          "natural join ingredients as i "
-    #                          "natural join recipes_ingredients as ri;")
-    # recipe.cursor.execute("select r.recipe_id, r.name, ri.quantity, ri.unit from recipes as r "
-    #                       "natural join ingredients as i "
-    #                       "natural join recipes_ingredients as ri "
-    #                       "where i.ingredient = 'garlic';")
-    # recipe.cursor.execute('SELECT name, cook_time FROM recipes WHERE cook_time < 60')
-    recipe.cursor.execute("select ingredient_id, count(ingredient_id) "
-                          "from recipes_ingredients "
-                          "group by ingredient_id "
-                          "having count(ingredient_id) > 1")
-    for i in recipe.cursor.fetchall(): print i
-
-    recipe.connection.close()
+    recipe = RecipeSlurper('cookbook.db')
+    recipe.insert('./recipes/tamariavocadotoast.json')
+    print recipe.execute('select * from recipes;')[0]
+    recipe.close()
