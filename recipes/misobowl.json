@@ -73,6 +73,18 @@
       "quantity": 0.5,
       "unit": "cup",
       "ingredient": "rice vinegar"
+    },
+    {
+      "preparation": null,
+      "quantity": 1,
+      "unit": "Tbsp",
+      "ingredient": "sriracha"
+    },
+    {
+      "preparation": null,
+      "quantity": 2,
+      "unit": "Tbsp",
+      "ingredient": "sesame seed"
     }
   ], 
   "subtitle": "cooked with love",

@@ -1,3 +1,13 @@
+-- First drop tables (remove if from new)
+DROP TABLE recipes;
+
+DROP TABLE recipes_ingredients;
+
+DROP TABLE ingredients;
+
+DROP TABLE instructions;
+--
+
 CREATE TABLE recipes (
     recipe_id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
     name TEXT NOT NULL,
