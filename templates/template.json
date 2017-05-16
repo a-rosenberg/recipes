@@ -10,6 +10,8 @@
       "ingredient": "ingredient"
     }
   ], 
+  "author_lastname": "lastname", 
+  "author_firstname": "firstname", 
   "notes": "notes", 
   "instructions": "instructions"
 }
