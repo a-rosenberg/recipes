@@ -3,11 +3,10 @@ import json
 import os
 
 class RecipeSlurper:
-    """Sluper to get serialized JSON recipe files into database"""
+    """Slurper to get serialized JSON recipe files into database"""
     def __init__(self, database):
         self.connection = sqlite3.connect(database)
         self.cursor = self.connection.cursor()
-
 
     def insert(self, target):
         self.data = json.load(open(target))
