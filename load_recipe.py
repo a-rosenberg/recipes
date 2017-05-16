@@ -80,6 +80,7 @@ if __name__ == '__main__':
     #                       "natural join recipes_ingredients as ri "
     #                       "where i.ingredient = 'garlic';")
     # recipe.cursor.execute('SELECT name, cook_time FROM recipes WHERE cook_time < 60')
+    recipe.cursor.execute("select * from recipes;")
 
     for i in recipe.cursor.fetchall(): print i
 
