@@ -1,0 +1,63 @@
+{
+  "cook_time": "10", 
+  "subtitle": "millenial breakfasts",
+  "name": "tamari avocado toast", 
+  "ingredients": [
+    {
+      "quantity": "1",
+      "preparation": "1/4\" diced",
+      "unit": "", 
+      "ingredient": "avocado"
+    }, 
+    {
+      "quantity": "2",
+      "preparation": "toasted",
+      "unit": "slice", 
+      "ingredient": "bread"
+    }, 
+    {
+      "quantity": "1",
+      "preparation": "",
+      "unit": "Tbsp", 
+      "ingredient": "toasted sesame seed"
+    }, 
+    {
+      "quantity": "1",
+      "preparation": "",
+      "unit": "tsp", 
+      "ingredient": "sriracha"
+    }, 
+    {
+      "quantity": "2",
+      "preparation": "",
+      "unit": "tsp", 
+      "ingredient": "tamari"
+    }, 
+    {
+      "quantity": "1",
+      "preparation": "",
+      "unit": "tsp", 
+      "ingredient": "sesame oil"
+    }, 
+    {
+      "quantity": "0.5",
+      "preparation": "",
+      "unit": "tsp", 
+      "ingredient": "mirin"
+    },
+    {
+      "preparation": null,
+      "quantity": 2,
+      "unit": null,
+      "ingredient": "egg"
+    },
+    {
+      "quantity": "0.25",
+      "preparation": "",
+      "unit": "tsp", 
+      "ingredient": "white vinegar"
+    }
+  ], 
+  "notes": "Makes two open faced toast sammies.", 
+  "instructions": "Lightly toss avocado, sriracha, tamari, sesame oil, mirin and white vinegar in bowl.  Start toast and cook eggs on low heat in pan until yolk is molten and just barely running.  When everything is ready, lightly smush the avocado onto the toast with the back of a spoon and drizzle on white sesame seeds.  Then top with egg and garnish with black sesame seeds and sriracha."
+}

@@ -62,12 +62,17 @@ class RecipeSlurper:
 
 
 
+
 if __name__ == '__main__':
-    recipe = RecipeSlurper('./recipes/misobowl.json', database='cookbook.db')
+    # recipe = RecipeSlurper('./recipes/misobowl.json', database='cookbook.db')
     # recipe.insert()
     # recipe.connection.commit()
 
-    recipe = RecipeSlurper('./recipes/shakshuka.json', database='cookbook.db')
+    # recipe = RecipeSlurper('./recipes/shakshuka.json', database='cookbook.db')
+    # recipe.insert()
+    # recipe.connection.commit()
+
+    recipe = RecipeSlurper('./recipes/tamariavocadotoast.json', database='cookbook.db')
     # recipe.insert()
     # recipe.connection.commit()
 
@@ -80,8 +85,10 @@ if __name__ == '__main__':
     #                       "natural join recipes_ingredients as ri "
     #                       "where i.ingredient = 'garlic';")
     # recipe.cursor.execute('SELECT name, cook_time FROM recipes WHERE cook_time < 60')
-    recipe.cursor.execute("select * from recipes;")
-
+    recipe.cursor.execute("select ingredient_id, count(ingredient_id) "
+                          "from recipes_ingredients "
+                          "group by ingredient_id "
+                          "having count(ingredient_id) > 1")
     for i in recipe.cursor.fetchall(): print i
 
     recipe.connection.close()
