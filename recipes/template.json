@@ -1,0 +1,15 @@
+{
+  "cook_time": "cook_time", 
+  "subtitle": "subtitle", 
+  "name": "name", 
+  "ingredients": [
+    {
+      "preparation": "preparation", 
+      "quantity": "quantity", 
+      "unit": "unit", 
+      "ingredient": "ingredient"
+    }
+  ], 
+  "notes": "notes", 
+  "instructions": "instructions"
+}

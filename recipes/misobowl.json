@@ -1,0 +1,81 @@
+{
+  "notes": "Can be cooked with any good roasting vegetables or fresh seasonal garnishes -- I often roast green cabbage and thinly sliced red cabbage.",
+  "cook_time": 60,
+  "ingredients": [
+    {
+      "preparation": null,
+      "quantity": 1.25,
+      "unit": "cup",
+      "ingredient": "brown rice"
+    },
+    {
+      "preparation": "null",
+      "quantity": 0.25,
+      "unit": "cup",
+      "ingredient": "wild rice"
+    },
+    {
+      "preparation": "1/2 to 1\" dice",
+      "quantity": 2,
+      "unit": null,
+      "ingredient": "sweet potato"
+    },
+    {
+      "preparation": "cut into florets",
+      "quantity": 1,
+      "unit": "head",
+      "ingredient": "broccoli"
+    },
+    {
+      "preparation": "peeled",
+      "quantity": 4,
+      "unit": "clove",
+      "ingredient": "garlic"
+    },
+    {
+      "preparation": "peeled and minced",
+      "quantity": 0.25,
+      "unit": "cup",
+      "ingredient": "ginger"
+    },
+    {
+      "preparation": null,
+      "quantity": 0.25,
+      "unit": "cup",
+      "ingredient": "sesame oil"
+    },
+    {
+      "preparation": null,
+      "quantity": 0.25,
+      "unit": "cup",
+      "ingredient": "neutral oil"
+    },
+    {
+      "preparation": null,
+      "quantity": 2,
+      "unit": "Tbsp",
+      "ingredient": "honey"
+    },
+    {
+      "preparation": null,
+      "quantity": 0.25,
+      "unit": "cup",
+      "ingredient": "miso paste"
+    },
+    {
+      "preparation": null,
+      "quantity": 0.25,
+      "unit": "cup",
+      "ingredient": "tahini"
+    },
+    {
+      "preparation": null,
+      "quantity": 0.5,
+      "unit": "cup",
+      "ingredient": "rice vinegar"
+    }
+  ], 
+  "subtitle": "cooked with love",
+  "name": "miso ginger bowls",
+  "instructions": "filler text"
+}
