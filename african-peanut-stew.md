@@ -8,6 +8,11 @@
 <br>
 
 ## Ingredients
+- 1 bunch collard greens
+- 6 cups broth
+- 1 large or 2 small sweet potato
+- 6 oz can tomato paste
+- 1/2 cup natural peanut butter
 
 ## Instructions
 
