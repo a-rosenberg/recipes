@@ -1,4 +1,6 @@
-<h1 align="center">mbingest</h1>
+<span align="left">12.31.2017</span>
+
+<h1 align="center">peanut stew</h1>
 
 <div align="center">
   <a href="#ingredients">ingredients</a> | 
