@@ -1,4 +1,4 @@
-<span align="left">12.31.2017</span>
+<span align="right">12.31.2017</span>
 
 <h1 align="center">peanut stew</h1>
 
