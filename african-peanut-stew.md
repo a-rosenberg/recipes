@@ -1,6 +1,6 @@
 <p align="right">12.31.2017</p>
 
-<h3 align="center">peanut stew</h3>
+<h2 align="center">peanut stew</h2>
 
 <div align="center">
   <a href="#ingredients">ingredients</a> | 
