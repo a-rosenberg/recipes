@@ -11,8 +11,11 @@
 
 ## Ingredients
 1 bunch collard greens; washed and rinsed
+
 1 onion; small dice
+
 1 inch of ginger root; grated
+
 - 4 garlic cloves; minced
 - 6 cups broth
 - 1 large or 2 small sweet potato; 1/2" dice
